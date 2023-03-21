@@ -10,9 +10,10 @@ Klik op 'vorige of 'volgende' om een ander artikel te bekijken. Kijk wat er gebe
 ## Todo
 
 - `let butNext = document.querySelector("a[rel='next']")`
+-> feature detects ontbreken!
 - `parseFromString` ?
 -> feature detects ontbreken!
 - `loadNext();` 
--> hier zou ik de feature detect omheen zetten: `if (fetch && queryselector) { loadNext(); }`, a la cutting the mustard
+-> hier zou ik de feature detect omheen zetten: `if (fetch && queryselector && ?) { loadNext(); }`, a la cutting the mustard
 
 - Volgende stap? Touch implementeren om door de lijst artikelen te swipen ...
