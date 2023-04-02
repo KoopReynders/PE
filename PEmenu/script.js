@@ -15,6 +15,6 @@ menucloon.classList.add("hamburgesia");
 
 //a link menu afpakken en nieuwe actie aanmaken
 document.querySelector("header > a").onclick = function() {
-  event.preventDefault(); //zodat de # niet wordt uitgevoerd
   menucloon.classList.toggle('showmenu') //toggel show/hide menu
+  event.preventDefault(); //zodat de # niet wordt uitgevoerd
 };
