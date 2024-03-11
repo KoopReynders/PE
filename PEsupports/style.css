@@ -57,22 +57,37 @@ div#vraag2b {
 }
 
 /* Vraag 3 */
-div {
+div#vraag3 {
   background: red;
 }
 @supports (scroll-snap-stop: always) {
-  div {
+  div#vraag3 {
     background: blue;
   }
 }
 
 
-/* Vraag 4 */
-div {
+/* Vraag 4 
+position sticky
+*/
+div#vraag4 {
   background: red;
 }
 @supports (position: sticky) {
-  div {
+  div#vraag4 {
+    background: blue;
+  }
+}
+
+
+/* Vraag 5 
+ANimation timeline
+*/
+div#vraag5 {
+  background: red;
+}
+@supports (animation-timeline: works) {
+  div#vraag5 {
     background: blue;
   }
 }
