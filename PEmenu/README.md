@@ -5,4 +5,5 @@ Als een browser Javascript heeft, dan wordt een fancy menu gecloond en getoond.
 
 Kijk wat er gebeurt als je in de dev tools van je browser Javascript aan of uit zet.
 
-[Bekijk de demo hier](https://cmda-minor-web.github.io/browser-technologies-2021/examples/PEmenu/)
+[Bekijk de demo hier](https://koopreynders.github.io/PE/PEmenu/)
+
